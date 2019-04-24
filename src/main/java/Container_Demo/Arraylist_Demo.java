@@ -16,7 +16,7 @@ public class Arraylist_Demo {
         System.out.println(size);
 
         //加入泛型检查加入元素类型，方便后期统一处理
-        List<Employee> ee = new ArrayList<>();
+        List<Employee> ee = new ArrayList<Employee>();
         ee.add(new Employee("Carl",30));
 
         Employee[] ees = new Employee[ee.size()];

@@ -6,7 +6,7 @@ import java.util.Vector;
 
 public class Vector_Demo {
     public static void main(String[] args) {
-        Vector<Employee> vector = new Vector<>();
+        Vector<Employee> vector = new Vector<Employee>();
         vector.add(new Employee("Emma", 19));
         for (Employee e:
              vector) {

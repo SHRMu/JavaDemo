@@ -8,7 +8,7 @@ public class HashMap_Demo {
     }
 
     private static void TestHashMap(){
-        Map<Integer, String> hashMap = new HashMap<>();
+        Map<Integer, String> hashMap = new HashMap<Integer, String>();
         hashMap.put(001, "Hello");
         hashMap.put(002,"World");
         hashMap.put(003, "Java");

@@ -10,7 +10,7 @@ import java.util.Set;
 public class HashSet_Demo {
     public static void main(String[] args) {
 
-        HashSet<Student> hashSet = new HashSet<>();
+        HashSet<Student> hashSet = new HashSet<Student>();
         Student s1 = new Student(001, "David", 20);
         Student s2 = new Student (002,"Hellen", 19);
         Student s3 = new Student(003,"Amy",19);
